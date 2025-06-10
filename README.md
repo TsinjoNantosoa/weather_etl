@@ -32,7 +32,6 @@ Le DAG nécessite une base de données PostgreSQL pour stocker les données mét
 Si vous utilisez Astro CLI ou un outil similaire qui gère votre base de données automatiquement, vous pouvez ignorer cette étape. Sinon, vous pouvez utiliser l'extrait de `docker-compose.yaml` fourni pour exécuter une instance PostgreSQL locale :
 
 ```yaml
-# docker-compose.yaml (si vous n'utilisez pas Astro CLI pour la gestion de la BDD)
 version: '3.8'
 
 services:
